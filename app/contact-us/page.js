@@ -6,7 +6,7 @@ import React from "react";
 
 const ContactUsPage = () => {
   return (
-    <div>
+    <div className="bg-white">
       {" "}
       <header className="contactUs-bg">
         <div className="overlay text-white">

@@ -14,8 +14,8 @@ const ContactUsForm = () => {
   return (
     <div>
       <div className="pt-10">
-        <div className=" flex flex-col lg:flex-row shadow-2xl">
-          <form className="pt-[40px] pb-[24px] px-[24px] md:p-[40px] w-full">
+        <div className=" flex flex-col lg:flex-row shadow-2xl  bg-gray-100">
+          <form className=" pt-[40px] pb-[24px] px-[24px] md:p-[40px] w-full">
             <h2 className="text-center">Send Us A Message</h2>
             <label htmlFor="name">Name</label>
             <br />

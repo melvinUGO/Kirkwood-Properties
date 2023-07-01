@@ -30,7 +30,7 @@ const ProjectPage = ({ params }) => {
           </div>
         </div>
       </header>
-      <div className="center py-10 md:py-20 px-5 md:px-0">
+      <div className="center py-10 md:py-20 px-5 md:px-0 bg-white">
         <Services />
         <div className="py-10 md:py-20">
           <h2 className="py-0 text-center">Site & Service</h2>
@@ -52,7 +52,7 @@ const ProjectPage = ({ params }) => {
             <p>{project.locationSummary}</p>
           </div>
         </div>
-        <div className="md:py-20">
+        <div className=" py-10 md:py-20">
           <h2 className="py-0 text-center">Facilities</h2>
           <div className=" my-3 w-[60px] h-1 bg-kirkwood-blue mx-auto"></div>
           <div className=" flex flex-col items-center gap-10 justify-between md:flex-row ">
@@ -61,7 +61,7 @@ const ProjectPage = ({ params }) => {
                 <li key={index}>- {feature}</li>
               ))}
             </ul>
-            <div className="max-w-[560px] h-[463px] py-10 mx-auto">
+            <div className="w-full max-w-[560px] h-[463px] py-10 mx-auto">
               <Slider images={project.images} />
             </div>
           </div>

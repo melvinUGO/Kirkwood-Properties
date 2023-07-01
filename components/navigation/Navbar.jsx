@@ -14,7 +14,7 @@ import { useNavGlobalContext } from "@/contexts/navigationContext";
 const Navbar = () => {
   const { openSidebar } = useNavGlobalContext();
   return (
-    <nav className=" border-b border-b-[rgba(255,255,255,0.08)]">
+    <nav className=" border-b border-b-[rgba(255,255,255,0.08)] mb-5 md:mb-0">
       <div className=" hidden center md:flex justify-between items-center py-3 px-7 bg-transparent">
         <Link href="/" className="relative w-[175px] h-[65px]">
           <Image src={logo} fill className="object-contain" priority />
@@ -36,9 +36,9 @@ const Navbar = () => {
       </div>
       <div className="center md:hidden flex justify-between items-center py-3 px-7 bg-transparent">
         <div></div>
-        <div className="relative w-[170px] h-[90px]">
+        <Link href="/" className="relative w-[175px] h-[65px]">
           <Image src={logo} fill className="object-contain" priority />
-        </div>
+        </Link>
         <button
           type="button"
           className="text-[1.3rem] text-kirkwood-blue"

@@ -3,6 +3,7 @@ import React from "react";
 import { RxCross1 } from "react-icons/rx";
 import Link from "next/link";
 import { useNavGlobalContext } from "@/contexts/navigationContext";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useNavGlobalContext();
@@ -21,10 +22,33 @@ const Sidebar = () => {
           className=" sidebar-links-container flex flex-col gap-5 py-10"
           onClick={closeSidebar}
         >
-          <Link href="/">Home</Link>
-          <Link href="/aboutUs">About us</Link>
-          <Link href="/projects">Projects</Link>
-          <Link href="/contactUs">Contact us</Link>
+          <Link href="/" className=" hover:text-kirkwood-blue">
+            Home
+          </Link>
+          <Link href="/about-us" className=" hover:text-kirkwood-blue">
+            About us
+          </Link>
+          <Link href="/contact-us" className=" hover:text-kirkwood-blue">
+            Contact us
+          </Link>
+        </div>
+        <div className=" flex items-center gap-2 py-5">
+          <a
+            href="http://"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" text-[#111c] border border-[#111c] p-2 rounded-full w-fit"
+          >
+            <FaInstagram />
+          </a>
+          <a
+            href="http://"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" text-[#111c] border border-[#111c] p-2 rounded-full w-fit"
+          >
+            <FaWhatsapp />
+          </a>
         </div>
       </nav>
       <div className="grow" onClick={closeSidebar} />

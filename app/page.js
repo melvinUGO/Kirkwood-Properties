@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-white">
       <header className="bg">
         <div className="overlay text-white">
           <Navbar />
@@ -25,12 +25,12 @@ export default function Home() {
                 A residential and commercial city that transcends beyond the
                 ordinary,
               </p>
-              <p className="text-white">
+              <p className="text-white pb-10">
                 to complement technology, innovation and lifestyle.
               </p>
-              <button className="p-3 px-5 my-5 bg-kirkwood-blue">
+              <a href="#projects" className="p-3 px-5 bg-kirkwood-blue">
                 Explore &darr;
-              </button>
+              </a>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ import { RevealWrapper } from "next-reveal";
 
 const Projects = () => {
   return (
-    <section className=" pt-36 px-9 lg:px-0">
+    <section id="projects" className=" pt-36 px-5 sm:px-9 lg:px-0">
       <div className="flex flex-col  gap-10 lg:flex-row justify-between lg:items-center">
         <div className=" relative hidden md:flex bg-kirkwood-blue w-[410px] md:h-[481px] mx-auto">
           <img
@@ -32,8 +32,8 @@ const Projects = () => {
         {projectInfo &&
           projectInfo.map((project, index) => (
             <RevealWrapper key={index} delay={index * 50}>
-              <article className=" relative bg-kirkwood-blue w-full sm:w-[330px] lg:w-[410px] xl:w-[490px] h-[481px] mx-auto">
-                <div className=" absolute -bottom-8 -right-8 w-full sm:w-[330px] lg:w-[410px] xl:w-[490px] h-[481px]">
+              <article className=" relative bg-kirkwood-blue w-[300px]  sm:w-[330px] lg:w-[410px] xl:w-[490px] h-[481px] mx-auto">
+                <div className=" absolute -bottom-8 -right-8 w-[300px] sm:w-[330px] lg:w-[410px] xl:w-[490px] h-[481px]">
                   <img
                     src={project.image}
                     alt="image"
@@ -44,10 +44,10 @@ const Projects = () => {
                     <p className="font-medium text-[1.3rem] pb-5 text-white">
                       {project.type}
                     </p>
-                    <p className="text-white">{project.slogan}</p>
+                    <p className="text-white pb-5">{project.slogan}</p>
                     <Link
                       href={`/projects/${project.link}`}
-                      className="absolute bottom-36 left-44 font-semibold bg-white text-kirkwood-blue p-3 px-5"
+                      className="font-semibold bg-white text-kirkwood-blue p-3 px-5"
                     >
                       EXPLORE
                     </Link>
