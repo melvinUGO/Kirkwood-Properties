@@ -14,32 +14,69 @@ import { useNavGlobalContext } from "@/contexts/navigationContext";
 const Navbar = () => {
   const { openSidebar } = useNavGlobalContext();
   return (
-    <nav className=" border-b border-b-[rgba(255,255,255,0.08)] mb-5 md:mb-0">
+    <nav className=" border-b bg-white mb-5 md:mb-0">
       <div className=" hidden center md:flex justify-between items-center py-3 px-7 bg-transparent">
-        <Link href="/" className="relative w-[175px] h-[65px]">
-          <Image src={logo} fill className="object-contain" priority />
+        <Link
+          href="/"
+          className="relative w-[175px] h-[65px]"
+          aria-label="home page"
+        >
+          <Image
+            src={logo}
+            alt="logo"
+            fill
+            className="object-contain"
+            priority
+          />
         </Link>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-6 font-medium text-kirkwood-blue">
           <Link href="/">Home</Link>
           <Link href="/about-us">About</Link>
           <Link href="/contact-us">Contact Us</Link>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a
+            href="http://"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="kirkwwod properties facebook page"
+          >
             <FaFacebookSquare />
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a
+            href="http://"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="kirkwwod properties twitter page"
+          >
             <FaTwitter />
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a
+            href="http://"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="kirkwwod properties instagram page"
+          >
             <FaInstagram />
           </a>
         </div>
       </div>
       <div className="center md:hidden flex justify-between items-center py-3 px-7 bg-transparent">
         <div></div>
-        <Link href="/" className="relative w-[175px] h-[65px]">
-          <Image src={logo} fill className="object-contain" priority />
+        <Link
+          href="/"
+          className="relative w-[175px] h-[65px]"
+          aria-label="home page"
+        >
+          <Image
+            src={logo}
+            alt="logo"
+            fill
+            className="object-contain"
+            priority
+          />
         </Link>
         <button
+          aria-label="side bar button"
+          role="button"
           type="button"
           className="text-[1.3rem] text-kirkwood-blue"
           onClick={openSidebar}

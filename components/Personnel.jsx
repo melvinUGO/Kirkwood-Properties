@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import {
   FaFacebookSquare,
@@ -17,8 +18,13 @@ const Personnel = () => {
       </p>
       <div className="flex flex-col md:flex-row py-10 gap-5">
         <article className=" sm:w-[246px] md:w-[360px] text-center mx-auto">
-          <div className="sm:w-[246px] md:w-[360px] md:h-[380px] overflow-hidden">
-            <img src="/oluchi.jpg" alt="MD image" className="object-cover" />
+          <div className="relative sm:w-[246px] md:w-[360px] md:h-[380px] overflow-hidden">
+            <Image
+              src="/oluchi.jpg"
+              alt="MD image"
+              fill
+              className="object-cover"
+            />
           </div>
           <h2 className="py-1">Oluchi Arinze</h2>
           <p>Managing Director</p>

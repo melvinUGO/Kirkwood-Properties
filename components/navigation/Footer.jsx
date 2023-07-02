@@ -44,18 +44,23 @@ const Footer = () => {
               <label htmlFor="name">Name</label>
               <br />
               <input
+                id="name"
+                aria-label="name"
                 type="text"
                 className="bg-[#F3ECECC4] text-[#070707] border border-[#69727d] p-[11px] text-[15px] w-full"
               />
               <label htmlFor="email">Email</label>
               <br />
               <input
+                id="email"
+                aria-label="email"
                 type="email"
                 className="bg-[#F3ECECC4] text-[#070707] border border-[#69727d] p-[11px] text-[15px] w-full"
               />
               <label htmlFor="name">Message</label>
               <br />
               <textarea
+                aria-label="message"
                 name="message"
                 className="bg-[#F3ECECC4] text-[#070707] border border-[#69727d] p-[11px] text-[15px] w-full"
                 id="message"

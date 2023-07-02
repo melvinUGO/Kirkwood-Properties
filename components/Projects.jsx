@@ -16,6 +16,7 @@ const Projects = () => {
             src="/residential-space.jpg"
             alt="image"
             className=" object-cover absolute -top-8 -right-8 w-[410px] md:h-[481px]"
+            loading="lazy"
           />
         </div>
         <div className=" text-center md:text-left ">
@@ -38,6 +39,7 @@ const Projects = () => {
                     src={project.image}
                     alt="image"
                     className=" object-cover w-full h-[481px]"
+                    loading="lazy"
                   />
                   <div className=" absolute top-0 left-0 overlay p-5 text-center text-white z-30">
                     <h2>{project.title}</h2>
