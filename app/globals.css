@@ -83,15 +83,15 @@ body {
 
 @media screen and (max-width: 540px) {
   .bg {
-    background-image: url("/home-bg-mini.jpg");
+    background-attachment: none;
   }
 
   .contactUs-bg {
-    background-image: url("/contactUs-bg-mini.jpg");
+    background-attachment: none;
   }
 
   .project-bg {
-    background-image: url("/project-mini.jpg");
+    background-attachment: none;
   }
 }
 
