@@ -81,6 +81,26 @@ body {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .bg {
+    background-image: url("/home-bg-mini.jpg");
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .contactUs-bg {
+    background-image: url("/contactUs-bg-mini.jpg");
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .project-bg {
+    background-image: url("/project-mini.jpg");
+    background-size: cover;
+    background-position: bottom;
+  }
+}
+
 .footer-bg-bg {
   background-color: rgba(8, 47, 136, 0.8);
 }
