@@ -97,15 +97,30 @@ const ContactUsForm = () => {
                 <span className=" w-9 h-9 text-white bg-kirkwood-blue p-3 rounded-full flex items-center justify-center">
                   <FaFacebookSquare />
                 </span>
-                <span className=" w-9 h-9 text-white bg-kirkwood-blue p-3 rounded-full flex items-center justify-center">
+                <a
+                  href="https://twitter.com/Kirkwoodpng"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" w-9 h-9 text-white bg-kirkwood-blue p-3 rounded-full flex items-center justify-center"
+                >
                   <FaTwitter />
-                </span>
-                <span className=" w-9 h-9 text-white bg-kirkwood-blue p-3 rounded-full flex items-center justify-center">
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/kirkwood-properties-ltd/about/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" w-9 h-9 text-white bg-kirkwood-blue p-3 rounded-full flex items-center justify-center"
+                >
                   <FaLinkedinIn />
-                </span>
-                <span className=" w-9 h-9 text-white bg-kirkwood-blue p-3 rounded-full flex items-center justify-center">
+                </a>
+                <a
+                  href="https://www.instagram.com/kirkwoodproperties/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" w-9 h-9 text-white bg-kirkwood-blue p-3 rounded-full flex items-center justify-center"
+                >
                   <FaInstagram />
-                </span>
+                </a>
               </div>
             </div>
           </div>

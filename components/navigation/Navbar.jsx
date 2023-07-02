@@ -14,7 +14,7 @@ import { useNavGlobalContext } from "@/contexts/navigationContext";
 const Navbar = () => {
   const { openSidebar } = useNavGlobalContext();
   return (
-    <nav className=" border-b bg-white mb-5 md:mb-0">
+    <nav className=" border-b bg-white mb-16 md:mb-0">
       <div className=" hidden center md:flex justify-between items-center py-3 px-7 bg-transparent">
         <Link
           href="/"
@@ -34,15 +34,7 @@ const Navbar = () => {
           <Link href="/about-us">About</Link>
           <Link href="/contact-us">Contact Us</Link>
           <a
-            href="http://"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="kirkwwod properties facebook page"
-          >
-            <FaFacebookSquare />
-          </a>
-          <a
-            href="http://"
+            href="https://twitter.com/Kirkwoodpng"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="kirkwwod properties twitter page"
@@ -50,7 +42,7 @@ const Navbar = () => {
             <FaTwitter />
           </a>
           <a
-            href="http://"
+            href="https://www.instagram.com/kirkwoodproperties/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="kirkwwod properties instagram page"

@@ -3,7 +3,7 @@ import React from "react";
 import { RxCross1 } from "react-icons/rx";
 import Link from "next/link";
 import { useNavGlobalContext } from "@/contexts/navigationContext";
-import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaFacebookSquare, FaTwitter } from "react-icons/fa";
 
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useNavGlobalContext();
@@ -14,7 +14,7 @@ const Sidebar = () => {
         isSidebarOpen ? " translate-x-0 " : " -translate-x-[100%] "
       }  ease-out delay-300 transition-opacity fixed top-0 left-0 z-50 w-[100vw] h-full bg-[rgba(0,0,0,0.3)] flex`}
     >
-      <nav className="bg-[#ffffff] text-[#212121] h-full w-[264px] sm:w-[324px] p-[20px]">
+      <nav className="bg-[#ffffff] text-[#212121] text-[1.5rem] h-full w-[264px] sm:w-[324px] p-[20px]">
         <button onClick={closeSidebar}>
           <RxCross1 />
         </button>
@@ -32,22 +32,22 @@ const Sidebar = () => {
             Contact us
           </Link>
         </div>
-        <div className=" flex items-center gap-2 py-5">
+        <div className=" flex items-center gap-3 py-5">
           <a
-            href="http://"
+            href="https://twitter.com/Kirkwoodpng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" text-[#111c] border border-[#111c] p-2 rounded-full w-fit"
+          >
+            <FaTwitter />
+          </a>
+          <a
+            href="https://www.instagram.com/kirkwoodproperties/"
             target="_blank"
             rel="noopener noreferrer"
             className=" text-[#111c] border border-[#111c] p-2 rounded-full w-fit"
           >
             <FaInstagram />
-          </a>
-          <a
-            href="http://"
-            target="_blank"
-            rel="noopener noreferrer"
-            className=" text-[#111c] border border-[#111c] p-2 rounded-full w-fit"
-          >
-            <FaWhatsapp />
           </a>
         </div>
       </nav>

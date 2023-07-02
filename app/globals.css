@@ -77,27 +77,21 @@ body {
 
 @media screen and (max-width: 820px) {
   .bg {
-    height: 50vh;
+    height: 60vh;
   }
 }
 
 @media screen and (max-width: 540px) {
   .bg {
     background-image: url("/home-bg-mini.jpg");
-    background-size: cover;
-    background-position: bottom;
   }
 
   .contactUs-bg {
     background-image: url("/contactUs-bg-mini.jpg");
-    background-size: cover;
-    background-position: bottom;
   }
 
   .project-bg {
     background-image: url("/project-mini.jpg");
-    background-size: cover;
-    background-position: bottom;
   }
 }
 
@@ -118,4 +112,14 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+@media screen and (max-width: 300px) {
+  h2 {
+    @apply text-[25px];
+  }
+  .project-box,
+  .project-box > div {
+    width: 190px;
+  }
 }
