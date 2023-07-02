@@ -25,7 +25,6 @@ body {
 
 .bg {
   background-image: url("/home-bg.jpg");
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,7 +34,6 @@ body {
 
 .contactUs-bg {
   background-image: url("/contactUs-bg.jpg");
-  background-attachment: fixed;
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,7 +44,6 @@ body {
 
 .project-bg {
   background-image: url("/project.jpg");
-  background-attachment: fixed;
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,17 +78,17 @@ body {
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (min-width: 540px) {
   .bg {
-    background-attachment: none;
+    background-attachment: fixed;
   }
 
   .contactUs-bg {
-    background-attachment: none;
+    background-attachment: fixed;
   }
 
   .project-bg {
-    background-attachment: none;
+    background-attachment: fixed;
   }
 }
 
