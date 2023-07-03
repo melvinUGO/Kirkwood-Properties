@@ -78,7 +78,7 @@ body {
   }
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 820px) {
   .bg {
     background-attachment: fixed;
   }

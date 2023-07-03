@@ -24,13 +24,16 @@ const ProjectPage = ({ params }) => {
               <HiLocationMarker />
               <address>{project.location}</address>
             </span>
-            <button className="mt-32 w-20 h-20 bg-kirkwood-blue border-2 border-white rounded-full font-bold text-[1.5rem] animate-bounce">
+            <a
+              href="#project"
+              className="mt-32 w-20 h-20 bg-kirkwood-blue border-2 border-white rounded-full font-bold text-[1.5rem] animate-bounce"
+            >
               &darr;
-            </button>
+            </a>
           </div>
         </div>
       </header>
-      <div className="center py-10 md:py-20 px-5 md:px-0 bg-white">
+      <div id="project" className="center py-10 md:py-20 px-5 md:px-0 bg-white">
         <Services />
         <div className="py-10 md:py-20">
           <h2 className="py-0 text-center">Site & Service</h2>
