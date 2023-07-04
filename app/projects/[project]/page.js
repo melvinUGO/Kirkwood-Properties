@@ -20,13 +20,13 @@ const ProjectPage = ({ params }) => {
               {project.title}
             </h1>
             <p className="text-white">{project.slogan}</p>
-            <span className="flex items-center gap-2 w-fit pt-10 mx-auto">
+            <span className="flex items-center gap-2 w-fit pt-10 pb-20 mx-auto">
               <HiLocationMarker />
               <address>{project.location}</address>
             </span>
             <a
               href="#project"
-              className="mt-32 w-20 h-20 bg-kirkwood-blue border-2 border-white rounded-full font-bold text-[1.5rem] animate-bounce"
+              className="p-3  w-20 h-20 bg-kirkwood-blue border-2 border-white rounded-full font-bold text-[1.5rem]  animate-bounce"
             >
               &darr;
             </a>

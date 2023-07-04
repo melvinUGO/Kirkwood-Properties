@@ -3,12 +3,7 @@ import Image from "next/image";
 import React from "react";
 import logo from "../../public/logo.png";
 import Link from "next/link";
-import {
-  FaFacebookSquare,
-  FaTwitter,
-  FaInstagram,
-  FaBars,
-} from "react-icons/fa";
+import { FaTwitter, FaInstagram, FaBars } from "react-icons/fa";
 import { useNavGlobalContext } from "@/contexts/navigationContext";
 
 const Navbar = () => {

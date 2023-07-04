@@ -27,7 +27,7 @@ export const projectsData = {
       "/camden/image (7).jpg",
     ],
     summary1:
-      "A modern 5-storey apartment building  built in Chevron, Lekki, Lagos, Nigeria. with 1 and 2 bedroom apartments, all of which are spacious and well-designed. The apartments have high ceilings and large windows that let in plenty of natural light. The building also has a number of amenities, including a gym, and parking. The apartments are expected to be completed in 2023. ",
+      "A modern 5-storey apartment building  built in Chevron, Lekki, Lagos, Nigeria. with 1 and 2 bedroom apartments, all of which are spacious and well-designed. The apartments have high ceilings and large windows that let in plenty of natural light. The building also has a number of amenities, including a gym, and parking. The apartments are expected to be completed in 2024. ",
     summary2:
       "The building is located in a quiet and secure neighborhood with easy access to schools, hospitals, and shopping malls. It is also close to the Lekki-Epe Expressway, making it easy to get around Lagos.",
     summary3:

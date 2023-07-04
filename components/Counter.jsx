@@ -7,10 +7,10 @@ const Counter = () => {
   const clientsRef = useRef(null);
   const projectsRef = useRef(null);
   const facilitiesRef = useRef(null);
-  useCountUp({ ref: hectaresRef, end: 2000 });
-  useCountUp({ ref: clientsRef, end: 200 });
-  useCountUp({ ref: projectsRef, end: 3 });
-  useCountUp({ ref: facilitiesRef, end: 50 });
+  useCountUp({ ref: hectaresRef, end: 15000 });
+  useCountUp({ ref: clientsRef, end: 2000 });
+  useCountUp({ ref: projectsRef, end: 4 });
+  useCountUp({ ref: facilitiesRef, end: 300 });
 
   return (
     <section className="grid grid-cols-2 gap-3 md:grid-cols-4 text-center">
