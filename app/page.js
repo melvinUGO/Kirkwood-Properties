@@ -22,11 +22,11 @@ export default function Home() {
             </div>
             <div className="text-center md:text-left">
               <p className="text-white">
-                A residential and commercial city that transcends beyond the
-                ordinary,
+                Discover an exquisite blend of luxury and comfort with our
+                meticulously crafted homes,
               </p>
               <p className="text-white pb-10">
-                to complement technology, innovation and lifestyle.
+                designed to fulfill your dreams of a perfect haven.
               </p>
               <a href="#projects" className="p-3 px-5 bg-kirkwood-blue">
                 Explore &darr;

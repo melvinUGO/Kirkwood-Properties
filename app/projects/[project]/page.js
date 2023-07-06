@@ -11,7 +11,7 @@ const ProjectPage = ({ params }) => {
 
   const project = projectsData[projectName];
   return (
-    <>
+    <div className="bg-white">
       <header className="project-bg">
         <div className="overlay text-white">
           <Navbar />
@@ -59,11 +59,13 @@ const ProjectPage = ({ params }) => {
           <h2 className="py-0 text-center">Facilities</h2>
           <div className=" my-3 w-[60px] h-1 bg-kirkwood-blue mx-auto"></div>
           <div className=" flex flex-col items-center gap-10 justify-between md:flex-row ">
-            <ul className="w-full">
-              {project.features.map((feature, index) => (
-                <li key={index}>- {feature}</li>
-              ))}
-            </ul>
+            <div className="w-full">
+              <ul className="md:w-fit mx-auto md:text-[1.2rem]">
+                {project.features.map((feature, index) => (
+                  <li key={index}>- {feature}</li>
+                ))}
+              </ul>
+            </div>
             <div className="w-full max-w-[560px] h-[463px] py-10 mx-auto">
               <Slider images={project.images} />
             </div>
@@ -71,7 +73,7 @@ const ProjectPage = ({ params }) => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

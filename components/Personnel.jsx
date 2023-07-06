@@ -13,8 +13,8 @@ const Personnel = () => {
       <h2 className="py-0 text-center">MEET OUR TEAM</h2>
       <div className=" my-3 w-[60px] h-1 bg-kirkwood-blue mx-auto"></div>
       <p className="text-center max-w-[503px] mx-auto">
-        Kirkwood Properties is a dynamic real estate company, committed to
-        providing world-class spaces through value innovation.
+        With a proven track record of success, our experienced team of
+        professionals works tirelessly to bring visionary projects to life.
       </p>
       <div className="flex flex-col md:flex-row py-10 gap-5">
         <article className=" sm:w-[246px] md:w-[360px] text-center mx-auto">

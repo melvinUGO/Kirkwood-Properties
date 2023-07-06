@@ -3,10 +3,13 @@ import Navbar from "@/components/navigation/Navbar";
 import Image from "next/image";
 import React from "react";
 
+export const metadata = {
+  title: "About - Kirkwood Properties",
+};
+
 const page = () => {
   return (
     <div>
-      {" "}
       <header className="contactUs-bg">
         <div className="overlay text-white">
           <Navbar />

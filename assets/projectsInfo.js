@@ -4,7 +4,7 @@ export const projectInfo = [
     title: "CAMDEN HEIGHTS",
     type: "Apartments",
     slogan:
-      "Home is where love resides, memories are created, friends always belong, and laughter never ends",
+      "Welcome to our premier apartment building, where sophistication meets modern living in a thriving urban setting, offering a seamless blend of comfort and convenience.",
     link: "camden-heights",
   },
   {
@@ -12,7 +12,7 @@ export const projectInfo = [
     title: "WOODLAND COURT",
     type: "Estate",
     slogan:
-      "This is a well-laid-out city, structured to balance the commercial space with the thrill of technology and entertainment.",
+      "With its prime location, impeccable craftsmanship, and unparalleled attention to detail, this estate sets a new standard for refined living, making it a true gem for discerning home buyers.",
     link: "woodland-court",
   },
   {
@@ -20,7 +20,7 @@ export const projectInfo = [
     title: "KOSYKAY TERRACES 1.0",
     type: "Mini Estate",
     slogan:
-      "This is a well-laid-out city, structured to balance the commercial space with the thrill of technology and entertainment.",
+      " Located in a prime location with easy access to vibrant city life, our terrace building complex offers a unique opportunity to embrace modern living while enjoying the tranquility and serenity of your own private terrace retreat.",
     link: "kosykay-terraces-1.0",
   },
   {
@@ -28,7 +28,7 @@ export const projectInfo = [
     title: "KOSYKAY TERRACES 2.0",
     type: "Mini Estate",
     slogan:
-      "This is a well-laid-out city, structured to balance the commercial space with the thrill of technology and entertainment.",
+      " Experience the allure of contemporary urban living at our exclusive terrace building complex, where style, functionality, and breathtaking views come together to create an unparalleled residential experience.",
     link: "kosykay-terraces-2.0",
   },
 ];

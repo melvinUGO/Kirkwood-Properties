@@ -1,8 +1,11 @@
 import ContactUsForm from "@/components/ContactUsForm";
 import Footer from "@/components/navigation/Footer";
 import Navbar from "@/components/navigation/Navbar";
-import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "Contact Us - Kirkwood Properties",
+};
 
 const ContactUsPage = () => {
   return (

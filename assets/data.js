@@ -35,7 +35,7 @@ export const projectsData = {
     features: [
       "Spacious living and dining areas",
       "Balconies or patios",
-      "24-hour power backup",
+      "24-hour electricity",
       "Access to amenities such as gym, and parking",
       "Elevator",
       "CCTV Surveillance",
@@ -65,7 +65,7 @@ export const projectsData = {
     features: [
       "Spacious living and dining areas",
       "Balconies or patios",
-      "24-hour power backup",
+      "24-hour electricity",
       "24 hour tap water / treatment plant",
       "Access to amenities such as gym, and parking",
       "CCTV Surveillance",
@@ -102,7 +102,7 @@ export const projectsData = {
     features: [
       "Spacious living and dining areas",
       "Balconies or patios",
-      "24-hour power backup",
+      "24-hour electricity",
       "24 hour tap water / treatment plant",
       "Access to amenities such as gym, and parking",
       "CCTV Surveillance",
@@ -134,7 +134,7 @@ export const projectsData = {
     features: [
       "Spacious living and dining areas",
       "Balconies or patios",
-      "24-hour power backup",
+      "24-hour electricity",
       "24 hour tap water / treatment plant",
       "Access to amenities such as gym, and parking",
       "CCTV Surveillance",
