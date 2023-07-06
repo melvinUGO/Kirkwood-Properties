@@ -77,6 +77,7 @@ const ProjectPage = ({ params }) => {
               controls
               loop
               muted
+              playsInline
               autoplay="true"
               className="w-full max-w-[600px] mx-auto"
             >
