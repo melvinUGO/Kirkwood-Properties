@@ -1,4 +1,3 @@
-import Counter from "@/components/Counter";
 import Personnel from "@/components/Personnel";
 import Projects from "@/components/Projects";
 import Footer from "@/components/navigation/Footer";
@@ -34,7 +33,6 @@ export default function Home() {
         </div>
       </header>
       <div className="center py-10">
-        <Counter />
         <Projects />
       </div>
       <div className="bg-gray-300">

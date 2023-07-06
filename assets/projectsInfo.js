@@ -1,6 +1,6 @@
 export const projectInfo = [
   {
-    image: "/camden/image (6).jpg",
+    image: "/camden/image (5).jpg",
     title: "CAMDEN HEIGHTS",
     type: "Apartments",
     slogan:
