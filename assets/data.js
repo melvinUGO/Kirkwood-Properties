@@ -24,7 +24,6 @@ export const projectsData = {
       "/camden/image (4).jpg",
       "/camden/image (5).jpg",
       "/camden/image (6).jpg",
-      "/camden/image (7).jpg",
     ],
     summary1:
       "A modern 5-storey apartment building  built in Chevron, Lekki, Lagos, Nigeria. with 1 and 2 bedroom apartments, all of which are spacious and well-designed. The apartments have high ceilings and large windows that let in plenty of natural light. The building also has a number of amenities, including a gym, and parking. The apartments are expected to be completed in 2024. ",
@@ -41,6 +40,8 @@ export const projectsData = {
       "CCTV Surveillance",
     ],
     map: '<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4461.9076131820775!2d3.529210012186419!3d6.441913287929828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sChevron%2C%20Lekki%20!5e0!3m2!1sen!2sng!4v1688132862417!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+    video_url:
+      "https://res.cloudinary.com/melvinugo/video/upload/v1688654338/kirkwood/camden-video.mp4",
   },
   "woodland-court": {
     title: "Woodland Court",
@@ -73,6 +74,8 @@ export const projectsData = {
       "Management office",
     ],
     map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7069400914406!2d3.5564472000000005!3d6.4316797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf7018e3bf95d%3A0x5dc2a642e0a8c9eb!2sOrchid%20Rd%2C%20Eti-Osa%20106104%2C%20Lekki%2C%20Lagos!5e0!3m2!1sen!2sng!4v1688144293821!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+    video_url:
+      "https://res.cloudinary.com/melvinugo/video/upload/v1688656532/kirkwood/woodland_rukt5k.mp4",
   },
   "kosykay-terraces-1.0": {
     title: "Kosykay Terraces 1.0",

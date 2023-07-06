@@ -71,6 +71,19 @@ const ProjectPage = ({ params }) => {
             </div>
           </div>
         </div>
+        {project.video_url && (
+          <div className="py-10 md:py-20">
+            <video
+              controls
+              loop
+              muted
+              autoplay="true"
+              className="w-full max-w-[600px] mx-auto"
+            >
+              <source src={project.video_url} />
+            </video>
+          </div>
+        )}
       </div>
       <Footer />
     </div>
