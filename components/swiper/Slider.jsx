@@ -13,7 +13,7 @@ import "./styles.css";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
-const Slider = ({ images }) => {
+const Slider = ({ images, title = "" }) => {
   return (
     <>
       <Swiper
@@ -34,7 +34,7 @@ const Slider = ({ images }) => {
           <SwiperSlide key={index}>
             <img
               src={image}
-              alt="image"
+              alt={title ? `${title} house image` : "lagos house image"}
               className="object-cover"
               loading="lazy"
             />

@@ -128,7 +128,7 @@ const ProjectPage = ({ params }) => {
               </ul>
             </div>
             <div className="w-full max-w-[560px] h-[463px] py-10 mx-auto">
-              <Slider images={project.images} />
+              <Slider images={project.images} title={project.title} />
             </div>
           </div>
         </div>
