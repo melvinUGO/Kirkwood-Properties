@@ -5,6 +5,9 @@ import React from "react";
 
 export const metadata = {
   title: "About - Kirkwood Properties",
+  alternates: {
+    canonical: `https://www.kirkwoodpropertiesng.com/about-us`,
+  },
 };
 
 const page = () => {

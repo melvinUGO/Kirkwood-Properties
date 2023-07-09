@@ -8,6 +8,35 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Kirkwood Properties",
   description: "Find Your Dream Home with Kirkwood Properties",
+  keywords: [
+    "real estate",
+    "property",
+    "houses",
+    "apartments",
+    "condos",
+    "lagos",
+    "nigeria",
+    "buy property",
+    "sell property",
+    "rent property",
+    "kirkwood property ltd",
+    "real estate agent",
+    "real estate company",
+    "luxury real estate",
+    "waterfront property",
+    "investment property",
+    "vacation rentals",
+    "foreclosures",
+    "short-term rentals",
+    "commercial real estate",
+    "land for sale",
+    "new construction",
+    "chevron",
+    "lekki",
+  ],
+  alternates: {
+    canonical: `https://www.kirkwoodpropertiesng.com`,
+  },
 };
 
 export default function RootLayout({ children }) {

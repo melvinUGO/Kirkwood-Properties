@@ -6,6 +6,65 @@ import Slider from "@/components/swiper/Slider";
 import React from "react";
 import { HiLocationMarker } from "react-icons/hi";
 
+export async function generateMetadata({ params }) {
+  const projectName = params.project;
+
+  const project = projectsData[projectName];
+
+  return {
+    title: `${project.title} - Kirkwood Properties ltd`,
+    description: project.summary1,
+    keywords: [
+      "real estate projects",
+      "real estate development",
+      "new construction",
+      "commercial real estate",
+      "residential real estate",
+      "luxury real estate",
+      "waterfront property",
+      "golf course homes",
+      "country club homes",
+      "equestrian property",
+      "rural property",
+      "urban real estate",
+      "suburban real estate",
+      "foreclosed properties",
+      "commercial real estate",
+      "investment properties",
+      "property management",
+      "real estate agents",
+      "real estate brokers",
+      "real estate professionals",
+      "real estate services",
+      "real estate investment",
+      "real estate financing",
+      "real estate trends",
+      "real estate market",
+      "mini estates",
+      "terraces",
+      "duplexes",
+      "new construction",
+      "modern homes",
+      "spacious homes",
+      "open floor plans",
+      "high ceilings",
+      "gourmet kitchens",
+      "luxurious bathrooms",
+      "private balconies",
+      "rooftop terraces",
+      "resort-style amenities",
+      "gated communities",
+      "walking distance to shops and restaurants",
+      "close to public transportation",
+      "family-friendly neighborhoods",
+      "pet-friendly communities",
+    ],
+    alternates: {
+      canonical: `https://www.kirkwoodpropertiesng.com/projects/${projectName}`,
+    },
+  };
+}
+
 const ProjectPage = ({ params }) => {
   const projectName = params.project;
 

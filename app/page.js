@@ -22,7 +22,8 @@ export default function Home() {
             <div className="text-center md:text-left">
               <p className="text-white pb-10">
                 Discover an exquisite blend of luxury and comfort with our
-                meticulously crafted homes,{<p className="inline md:block"></p>}{" "}
+                meticulously crafted homes,
+                <br className=" hidden md:block" />
                 designed to fulfill your dreams of a perfect haven.
               </p>
               <a href="#projects" className="p-4 px-7 bg-kirkwood-blue">
