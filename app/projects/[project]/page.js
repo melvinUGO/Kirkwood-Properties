@@ -15,6 +15,8 @@ export async function generateMetadata({ params }) {
     title: `${project.title} - Kirkwood Properties ltd`,
     description: project.summary1,
     keywords: [
+      `${project.title}`,
+      "kirkwood properties project",
       "real estate projects",
       "real estate development",
       "new construction",
