@@ -34,7 +34,7 @@ const Projects = () => {
           projectInfo.map((project, index) => (
             <RevealWrapper key={index} delay={index * 50}>
               <article className="project-box relative bg-kirkwood-blue w-[300px]  sm:w-[330px] lg:w-[410px] xl:w-[490px] h-[481px] mx-auto">
-                <div className=" absolute -bottom-8 -right-8 w-[300px] sm:w-[330px] lg:w-[410px] xl:w-[490px] h-[481px]">
+                <div className=" absolute bg-kirkwood-blue -bottom-8 -right-8 w-[300px] sm:w-[330px] lg:w-[410px] xl:w-[490px] h-[481px]">
                   <img
                     src={project.image}
                     alt="image"
