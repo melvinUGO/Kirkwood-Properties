@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+}
+
+* {
+  scroll-behavior: smooth !important;
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+}
+
+h2 {
+  @apply text-[32px] md:text-[2.5rem] py-5 font-medium;
+}
+
+h3 {
+  @apply font-medium text-[1.25rem];
+}
+
+p,
+li {
+  @apply text-[#7A7A7A];
+}
+
+body {
+  background-color: white;
+}
+
+.bg {
+  background-image: url("/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.contactUs-bg {
+  background-image: url("/contactUs-bg.jpg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+}
+
+.project-bg {
+  background-image: url("/project.jpg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.footer-bg {
+  background-image: url("/ocean.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+.center {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 820px) {
+  .bg {
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .bg {
+    background-attachment: fixed;
+  }
+
+  .contactUs-bg {
+    background-attachment: fixed;
+  }
+
+  .project-bg {
+    background-attachment: fixed;
+  }
+}
+
+.footer-bg-bg {
+  background-color: rgba(8, 47, 136, 0.8);
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@media screen and (max-width: 300px) {
+  h2 {
+    @apply text-[25px];
+  }
+  .project-box,
+  .project-box > div {
+    width: 190px;
+  }
+}
