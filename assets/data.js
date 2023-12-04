@@ -75,7 +75,7 @@ export const projectsData = {
     ],
     map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7069400914406!2d3.5564472000000005!3d6.4316797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf7018e3bf95d%3A0x5dc2a642e0a8c9eb!2sOrchid%20Rd%2C%20Eti-Osa%20106104%2C%20Lekki%2C%20Lagos!5e0!3m2!1sen!2sng!4v1688144293821!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
     video_url:
-      "https://res.cloudinary.com/melvinugo/video/upload/v1688656532/kirkwood/woodland_rukt5k.mp4",
+      "https://res.cloudinary.com/melvinugo/video/upload/v1701647923/kirkwood/WOODLAND_ESTATE_mo0gge.mp4",
   },
   "kosykay-terraces-1.0": {
     title: "Kosykay Terraces 1.0",
