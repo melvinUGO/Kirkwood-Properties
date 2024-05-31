@@ -107,7 +107,7 @@ const ProjectPage = ({ params }) => {
           <div className="w-full ">
             <div
               className="map-responsive rounded-3xl"
-              dangerouslySetInnerHTML={{ __html: project.map }}
+              dangerouslySetInnerHTML={{ __html: project?.map }}
             ></div>
           </div>
           <div>
@@ -140,7 +140,7 @@ const ProjectPage = ({ params }) => {
               muted
               playsInline
               autoplay="true"
-              className="w-full max-w-[600px] mx-auto"
+              className="w-full max-w-[600px] mx-auto max-h-[100vh]"
             >
               <source src={project.video_url} />
             </video>
