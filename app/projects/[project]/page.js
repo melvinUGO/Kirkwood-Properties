@@ -3,6 +3,7 @@ import Services from "@/components/Services";
 import Footer from "@/components/navigation/Footer";
 import Navbar from "@/components/navigation/Navbar";
 import Slider from "@/components/swiper/Slider";
+import VideoSlider from "@/components/swiper/VideoSlider";
 import React from "react";
 import { HiLocationMarker } from "react-icons/hi";
 
@@ -133,17 +134,8 @@ const ProjectPage = ({ params }) => {
           </div>
         </div>
         {project.video_url && (
-          <div className="py-10 md:py-20">
-            <video
-              controls
-              loop
-              muted
-              playsInline
-              autoplay="true"
-              className="w-full max-w-[600px] mx-auto max-h-[100vh]"
-            >
-              <source src={project.video_url} />
-            </video>
+          <div className="w-full max-w-[560px] h-[463px] py-10 md:py-20 mx-auto">
+            <VideoSlider videoUrl={project.video_url} />
           </div>
         )}
       </div>

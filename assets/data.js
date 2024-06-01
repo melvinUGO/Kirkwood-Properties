@@ -40,8 +40,11 @@ export const projectsData = {
       "CCTV Surveillance",
     ],
     map: '<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4461.9076131820775!2d3.529210012186419!3d6.441913287929828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sChevron%2C%20Lekki%20!5e0!3m2!1sen!2sng!4v1688132862417!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
-    video_url:
-      "https://res.cloudinary.com/melvinugo/video/upload/v1716991409/kirkwood/Camden_Heights_1.mp4",
+    video_url: [
+      "https://res.cloudinary.com/melvinugo/video/upload/v1688654338/kirkwood/camden-heights_1.mp4",
+      "https://res.cloudinary.com/melvinugo/video/upload/v1717272697/kirkwood/camden_heights_2.mp4",
+      "https://res.cloudinary.com/melvinugo/video/upload/v1716991409/kirkwood/camden_heights_3.mp4",
+    ],
   },
   "woodland-court": {
     title: "Woodland Court",
@@ -74,8 +77,10 @@ export const projectsData = {
       "Management office",
     ],
     map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7069400914406!2d3.5564472000000005!3d6.4316797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf7018e3bf95d%3A0x5dc2a642e0a8c9eb!2sOrchid%20Rd%2C%20Eti-Osa%20106104%2C%20Lekki%2C%20Lagos!5e0!3m2!1sen!2sng!4v1688144293821!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
-    video_url:
-      "https://res.cloudinary.com/melvinugo/video/upload/v1701647923/kirkwood/WOODLAND_ESTATE_mo0gge.mp4",
+    video_url: [
+      "https://res.cloudinary.com/melvinugo/video/upload/v1688656532/kirkwood/woodland_court_1.0_1.mp4",
+      "https://res.cloudinary.com/melvinugo/video/upload/v1701647923/kirkwood/woodland_court_1.0_2.mp4",
+    ],
   },
   "kosykay-terraces-1.0": {
     title: "Kosykay Terraces 1.0",
@@ -181,8 +186,9 @@ export const projectsData = {
       "Management office",
     ],
     map: '<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4047.889253200984!2d3.5649334790681335!3d6.447401125280239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1semerald%20estate%20ajah!5e0!3m2!1sen!2sng!4v1717182542375!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
-    video_url:
+    video_url: [
       "https://res.cloudinary.com/melvinugo/video/upload/v1716993459/kirkwood/Woodland_Court_2.0.mp4",
+    ],
   },
   "croydon-heights": {
     title: "Croydon Heights",
@@ -212,7 +218,8 @@ export const projectsData = {
       "CCTV Surveillance",
     ],
     map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7514.512239822531!2d3.4620429068535103!3d6.443879527999011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf44c3604ea81%3A0x6758510713371e91!2sFola%20Osibo%20Rd%2C%20Lekki%20Phase%20I%2C%20Lekki%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1717080783870!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
-    video_url:
+    video_url: [
       "https://res.cloudinary.com/melvinugo/video/upload/v1716993397/kirkwood/Croydon_Heights.mp4",
+    ],
   },
 };
