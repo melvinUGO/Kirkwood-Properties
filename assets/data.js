@@ -41,9 +41,11 @@ export const projectsData = {
     ],
     map: '<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4461.9076131820775!2d3.529210012186419!3d6.441913287929828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sChevron%2C%20Lekki%20!5e0!3m2!1sen!2sng!4v1688132862417!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
     video_url: [
-      "https://res.cloudinary.com/melvinugo/video/upload/v1688654338/kirkwood/camden-heights_1.mp4",
-      "https://res.cloudinary.com/melvinugo/video/upload/v1717272697/kirkwood/camden_heights_2.mp4",
-      "https://res.cloudinary.com/melvinugo/video/upload/v1716991409/kirkwood/camden_heights_3.mp4",
+      "https://res.cloudinary.com/melvinugo/video/upload/v1716991409/kirkwood/camden_heights_5.mp4",
+      "https://res.cloudinary.com/melvinugo/video/upload/v1717272697/kirkwood/camden_heights_4.mp4",
+      "https://res.cloudinary.com/melvinugo/video/upload/v1713637491/samples/camden_heights_3.mp4",
+      "https://res.cloudinary.com/melvinugo/video/upload/v1688654338/kirkwood/camden_heights_2.mp4",
+      "https://res.cloudinary.com/melvinugo/video/upload/v1717536631/kirkwood/camden_heights_1.mp4",
     ],
   },
   "woodland-court": {
@@ -78,8 +80,8 @@ export const projectsData = {
     ],
     map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7069400914406!2d3.5564472000000005!3d6.4316797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf7018e3bf95d%3A0x5dc2a642e0a8c9eb!2sOrchid%20Rd%2C%20Eti-Osa%20106104%2C%20Lekki%2C%20Lagos!5e0!3m2!1sen!2sng!4v1688144293821!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
     video_url: [
-      "https://res.cloudinary.com/melvinugo/video/upload/v1688656532/kirkwood/woodland_court_1.0_1.mp4",
       "https://res.cloudinary.com/melvinugo/video/upload/v1701647923/kirkwood/woodland_court_1.0_2.mp4",
+      "https://res.cloudinary.com/melvinugo/video/upload/v1688656532/kirkwood/woodland_court_1.0_1.mp4",
     ],
   },
   "kosykay-terraces-1.0": {
