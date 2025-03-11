@@ -24,9 +24,7 @@ const page = () => {
               </h1>
             </div>
             <p className="max-w-[278px] md:max-w-[508px] mx-auto text-white">
-              Kirkwood Properties reflects the perfect lifestyle of residents,
-              and the innovative hub of leading industry drivers, entrepreneurs,
-              tech experts and corporate workers.
+              Kirkwood Properties is redefining luxury living through innovative design, premium craftsmanship, and timeless elegance. We create exceptional spaces that inspire, elevate, and endure.
             </p>
           </div>
         </div>
