@@ -31,7 +31,7 @@ const Footer = () => {
               <span className="flex items-center gap-2">
                 <HiLocationMarker />
                 <address>
-                  53 Udeco Medical Road, Chevyview Estate, off Chevron Drive,
+                  16A Chief Albert Iyorah Street, off Babatunde Anjous Avenue,
                   Lekki, Lagos.
                 </address>
               </span>
