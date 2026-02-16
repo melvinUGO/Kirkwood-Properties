@@ -76,8 +76,7 @@ const ContactUsForm = () => {
                 <span className="text-[#808285]">
                   <h3 className="font-medium text-[1.25rem]">Our Location</h3>
                   <address>
-                    53 Udeco Medical Road, Chevyview Estate, off Chevron Drive,
-                    Lekki, Lagos.
+                    16A Chief Albert Iyorah Street, off Babatunde Anjous Avenue, Lekki, Lagos
                   </address>
                 </span>
               </div>
