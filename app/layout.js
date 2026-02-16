@@ -35,7 +35,7 @@ export const metadata = {
     "lekki",
   ],
   alternates: {
-    canonical: `https://www.kirkwoodpropertiesng.com`,
+    canonical: `https://www.kirkwoodproperties.ng`,
   },
 };
 
