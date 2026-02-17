@@ -222,6 +222,8 @@ export const projectsData = {
     map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7514.512239822531!2d3.4620429068535103!3d6.443879527999011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf44c3604ea81%3A0x6758510713371e91!2sFola%20Osibo%20Rd%2C%20Lekki%20Phase%20I%2C%20Lekki%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1717080783870!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
     video_url: [
       "https://res.cloudinary.com/melvinugo/video/upload/v1716993397/kirkwood/Croydon_Heights.mp4",
+      "https://res.cloudinary.com/melvinugo/video/upload/v1771313576/kirkwood/2BED_CROYDON_HEIGHT_BRANDED_1_jn77kz.mp4",
+      "https://res.cloudinary.com/melvinugo/video/upload/v1771313539/kirkwood/3BED_CROYDON_HEIGHTS_1_1_zricow.mp4"
     ],
   },
 };
