@@ -86,7 +86,7 @@ const ContactUsForm = () => {
                 </span>
                 <span className="text-[#808285]">
                   <h3 className="font-medium text-[1.25rem]">Office Hours</h3>
-                  <p>Mon-Fri: 9AM-5PM</p>
+                  <p>Mon-Fri: 8AM-5PM</p>
                 </span>
               </div>
             </div>
